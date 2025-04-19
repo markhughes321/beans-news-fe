@@ -1,0 +1,8 @@
+{
+  "short_name": "BEANS News",
+  "name": "BEANS News Frontend",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2A5C5A",
+  "background_color": "#F9F5F0"
+}
