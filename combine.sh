@@ -27,6 +27,7 @@ temp_metadata=$(mktemp)
 # Collect metadata
 find "$search_path" -type f \( -name "*.js" -o -name "*.db" -o -name "*.env" -o -name "*.md" \) \
   -not -path "*/node_modules/*" \
+  -not -path "./build/*" \
   -not -name "structure.md" \
   -not -iname "readme.md" \
   -not -path "*/logs/*" \
