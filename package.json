@@ -2,6 +2,7 @@
   "name": "beans-news-frontend",
   "version": "1.0.0",
   "private": true,
+  "proxy": "http://192.168.0.44:3020",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
